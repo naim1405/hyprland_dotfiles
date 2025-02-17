@@ -1,0 +1,28 @@
+yay --save --answerdiff None --answerclean None --removemake
+yay -S 
+ripgrep
+spotify
+thunar
+gvfs
+hyprpaper
+scrcpy
+linux-wifi-hotspot
+telegram-desktop
+hyprshot
+cpupower-gui
+cpupower
+btop
+tldr
+waypaper
+gthumb
+psensor
+gnome-disk-utility
+dnsmasq
+colloid-gtk-theme-git
+tela-circle-icon-theme-all-git
+plasma6-themes-colloid-git
+
+
+
+./install.sh -i
+./install.sh -s

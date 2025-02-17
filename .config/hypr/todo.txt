@@ -1,0 +1,8 @@
+gtk - nwg-look
+qt - kvantum
+notification -dunst
+
+rofi:
+https://github.com/adi1090x/rofi.git
+
+
