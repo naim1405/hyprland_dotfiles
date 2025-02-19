@@ -1,6 +1,8 @@
 set -g fish_greeting
 if status is-interactive
     # Commands to run in interactive sessions can go here
+
+    starship init fish | source
 end
 
 # List Directory
@@ -21,14 +23,18 @@ abbr .5 'cd ../../../../..'
 abbr mkdir 'mkdir -p'
 
 alias vim=nvim
+alias ff=fastfetch
+alias j=zoxide
 
 # Created by `pipx` on 2025-02-09 15:36:34
 set PATH $PATH /home/ezio/.local/bin
 
-alias np="cd '/mnt/New Volume/_Programming'"
+abbr np "cd '/mnt/New Volume/_Programming'"
+abbr work 'cd ~/Documents/work/'
+abbr conf 'cd ~/.config/'
 
 
-set -x ANDROID_HOME $HOME/Library/Android/sdk
+set -x ANDROID_HOME $HOME/Android/Sdk
 set -x PATH $PATH $ANDROID_HOME/emulator
 set -x PATH $PATH $ANDROID_HOME/platform-tools
 set -x EDITOR nvim
