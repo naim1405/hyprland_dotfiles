@@ -110,6 +110,9 @@ require 'lazy-plugins'
 --
 local autocmd = vim.api.nvim_create_autocmd
 
-autocmd("VimEnter", {
-  command = ":silent !kitty @ set-spacing padding=0 margin=0",
+autocmd('VimEnter', {
+  command = ':silent !kitty @ set-spacing padding=0 margin=0',
 })
+
+vim.opt.list = true
+vim.opt.listchars = { tab = '| ' }

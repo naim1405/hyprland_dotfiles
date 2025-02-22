@@ -24,6 +24,8 @@ abbr mkdir 'mkdir -p'
 
 alias vim=nvim
 alias ff=fastfetch
+set -x EDITOR nvim
+
 alias j=zoxide
 
 # Created by `pipx` on 2025-02-09 15:36:34
@@ -37,4 +39,4 @@ abbr conf 'cd ~/.config/'
 set -x ANDROID_HOME $HOME/Android/Sdk
 set -x PATH $PATH $ANDROID_HOME/emulator
 set -x PATH $PATH $ANDROID_HOME/platform-tools
-set -x EDITOR nvim
+set -x EDGE_PATH /usr/bin/brave
