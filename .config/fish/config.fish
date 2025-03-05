@@ -24,9 +24,10 @@ abbr mkdir 'mkdir -p'
 
 alias vim=nvim
 alias ff=fastfetch
+alias 'update-mirror'='rate-mirrors --protocol https --allow-root arch | sudo tee /etc/pacman.d/mirrorlist'
+alias note='nvim ~/Documents/notes/'
 set -x EDITOR nvim
 
-alias j=zoxide
 
 # Created by `pipx` on 2025-02-09 15:36:34
 set PATH $PATH /home/ezio/.local/bin
@@ -40,3 +41,4 @@ set -x ANDROID_HOME $HOME/Android/Sdk
 set -x PATH $PATH $ANDROID_HOME/emulator
 set -x PATH $PATH $ANDROID_HOME/platform-tools
 set -x EDGE_PATH /usr/bin/brave
+zoxide init --cmd cd fish | source
