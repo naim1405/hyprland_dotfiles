@@ -45,8 +45,14 @@ require('lazy').setup({
 
   --custom
   --require 'custom/plugins/',
+  require 'custom/plugins/trouble',
+
+  require 'custom/plugins/snacks',
+
   require 'custom/plugins/autotag',
+
   require 'custom/plugins/code-runner',
+
   require 'custom/plugins/toggle-term',
 
   require 'custom/plugins/nvim-colorizer',
