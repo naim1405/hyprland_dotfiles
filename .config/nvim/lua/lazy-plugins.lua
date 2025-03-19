@@ -45,6 +45,8 @@ require('lazy').setup({
 
   --custom
   --require 'custom/plugins/',
+  require 'custom/plugins/comment',
+
   require 'custom/plugins/trouble',
 
   require 'custom/plugins/snacks',
