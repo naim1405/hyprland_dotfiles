@@ -12,5 +12,7 @@ return {
     scope = { enabled = true },
     statuscolumn = { enabled = true },
     words = { enabled = true },
+    animate = { enabled = true },
+    image = { enabled = true },
   },
 }

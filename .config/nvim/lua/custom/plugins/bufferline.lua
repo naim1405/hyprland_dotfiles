@@ -23,7 +23,6 @@ return {
         show_buffer_icons = true,
         show_buffer_close_icons = true,
         show_close_icon = true,
-        persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
         sort_by = 'insert_at_end',
         indicator = {
           style = 'underline',
