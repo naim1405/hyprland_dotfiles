@@ -43,6 +43,8 @@ require('lazy').setup({
 
   --custom
   --require 'custom/plugins/',
+  require 'custom/plugins/treesitter-context',
+
   require 'custom/plugins/copilot',
 
   require 'custom/plugins/comment',
