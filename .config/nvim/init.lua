@@ -114,5 +114,4 @@ autocmd('VimEnter', {
   command = ':silent !kitty @ set-spacing padding=0 margin=0',
 })
 
-vim.opt.list = true
-vim.opt.listchars = { tab = '| ' }
+vim.wo.relativenumber = true
