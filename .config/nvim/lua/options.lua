@@ -64,7 +64,7 @@ vim.opt.scrolloff = 10
 
 -- vim: ts=2 sts=2 sw=2 et
 
-vim.cmd 'set expandtab'
+--vim.cmd 'set expandtab'
 vim.cmd 'set tabstop=4'
 vim.cmd 'set softtabstop=4'
 vim.cmd 'set shiftwidth=4'

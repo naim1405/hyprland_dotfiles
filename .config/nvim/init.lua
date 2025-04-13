@@ -115,3 +115,5 @@ autocmd('VimEnter', {
 })
 
 vim.wo.relativenumber = true
+
+require 'macros'

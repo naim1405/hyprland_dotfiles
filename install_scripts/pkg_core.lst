@@ -29,7 +29,6 @@ rofi-wayland                                           # application launcher
 waybar                                                 # system bar
 hyprlock                                               # lock screen
 wlogout                                                # logout menu
-# grimblast-git                                        # screenshot tool # DEPRECATED! We will ship our own version to avoid breaking changes
 grim                                                   # screenshot tool
 hyprpicker                                             # color picker
 slurp                                                  # region select for screenshot/screenshare
