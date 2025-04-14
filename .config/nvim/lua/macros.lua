@@ -7,4 +7,3 @@ vim.api.nvim_create_autocmd('FileType', {
   end,
 })
 --vim.fn.setreg('l', "yoconsole.log('🚀 pa : ', pa)")
---vim.fn.setreg('l', "yoconsole.log('🚀 pa : ', pa)")
