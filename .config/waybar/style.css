@@ -160,7 +160,8 @@ window#waybar {
 #custom-power{
     border-style: hidden;
     margin-top:2px;
-    font-size: 22px;
+    margin-right:10px;
+    font-size: 18px;
 }
 
 #custom-launcher{

@@ -15,7 +15,6 @@
     ],
     "modules-right": [
         "temperature",
-        "cpu",
         "backlight",
         "battery",
         "pulseaudio",
@@ -52,7 +51,7 @@
         "icon-size": 20
     },
     "idle_inhibitor": {
-        "format": "{icon}",
+        "format": "{icon} ",
         "format-icons": {
             "activated": "",
             "deactivated": ""
