@@ -42,3 +42,7 @@ set -x PATH $PATH $ANDROID_HOME/emulator
 set -x PATH $PATH $ANDROID_HOME/platform-tools
 set -x EDGE_PATH /usr/bin/brave
 zoxide init --cmd cd fish | source
+
+set -U fish_user_paths /usr/lib/llvm18/bin $fish_user_paths
+set -x PATH $PATH  $HOME/.config/tmux/plugins/tmuxifier/bin
+eval (tmuxifier init - fish)
