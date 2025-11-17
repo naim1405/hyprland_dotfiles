@@ -12,6 +12,15 @@ return {
 					"sonokai",
 					"everforest",
 					"edge",
+					"dracula",
+					"dracula-soft",
+					"zephyr",
+					"kanagawa-wave",
+					"kanagawa-dragon",
+					"kanagawa-lotus",
+					"oxocarbon",
+					"minimal-base16",
+					"minimal",
 				}, -- Your list of installed colorschemes.
 				livePreview = true, -- Apply theme while picking. Default to true.
 			})
@@ -61,6 +70,35 @@ return {
 			-- directly inside the plugin declaration.
 			vim.g.edge_enable_italic = true
 		end,
+	},
+	{
+		"Mofiqul/dracula.nvim",
+		priority = 1000,
+		lazy = false,
+		config = function()
+			italic_comment = true -- default false
+		end,
+	},
+	{
+		"glepnir/zephyr-nvim",
+		priority = 1000,
+	},
+	{
+		"rebelot/kanagawa.nvim",
+
+		priority = 1000,
+	},
+	{
+
+		"nyoom-engineering/oxocarbon.nvim",
+
+		priority = 1000,
+	},
+
+	{
+
+		"Yazeed1s/minimal.nvim",
+		priority = 1000,
 	},
 
 	vim.keymap.set("n", "<leader>tt", "<cmd>Themery<CR>"),

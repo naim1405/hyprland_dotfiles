@@ -10,8 +10,7 @@ return {
 		{
 			"<leader>md",
 			function()
-				--require('render-markdown').buf_toggle()
-				require("render-markdown").expand()
+				require("render-markdown").buf_toggle()
 			end,
 			desc = "Render Markdown",
 		},
